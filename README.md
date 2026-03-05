@@ -102,7 +102,7 @@ Through this project, I practiced:
 
 ## Example Results
 
-*<img width="720" height="720" alt="example_output" src="https://github.com/user-attachments/assets/76ce1d3e-30a3-4a3a-b5e8-aa1689a55dec" />
+![Example Results](example_output.png)
 
 
 ## Reference
