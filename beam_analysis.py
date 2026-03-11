@@ -18,12 +18,11 @@ l = float(input("Enter the length of the Beam (m): "))
 a = float(input("Enter the distance 'a' from the left support (m): "))
 
 # Calculation for EI (Assuming a 50mm x 50mm timber section as an example)
-# It's good to keep this transparent
 E = 200000 * (10**6) # Pa
 I = (0.05 * 0.05**3) / 12 # m^4
 EI = E * I
 
-# 2. Logic & Math
+# Logic & Math
 b = l - a
 R1 = P * b / l
 R2 = P * a / l
@@ -70,7 +69,8 @@ ax3.set_ylabel("Deflection (m)")
 ax3.set_xlabel("Position (m)")
 ax3.grid(True, alpha=0.3)
 
-# Save the result as an image for GitHub
+# Save the result as an image 
 plt.savefig("beam_analysis_output.png")
 print("Analysis complete. Plot saved as 'beam_analysis_output.png'")
 plt.show()
+
